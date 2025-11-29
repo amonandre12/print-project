@@ -5,6 +5,11 @@ const nextBtn = document.getElementById('nextBtn')
 // The Array 
 const images  = [
     {
+       image : 'images/slide1.jpg', 
+       text1 : 'Impressions tous formats' , 
+       text2 : 'en boutique et en ligne'
+    } , 
+    {
        image : 'images/slide2.jpg', 
        text1 : 'Tirages haute définition grand format' , 
        text2 : 'pour vos bureaux et events'
