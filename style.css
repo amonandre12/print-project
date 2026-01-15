@@ -16,7 +16,7 @@
 
 .arrow {
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-50%); 
     z-index: 10;
     width: 45px;
@@ -32,8 +32,8 @@
 
 .caption {
     position: absolute;
-    top: 27%;
-    left: 10%;
+    top: 30%;
+    left: 13%;
     color: white;
     align-content: center;
 }
@@ -157,7 +157,7 @@ br {
     margin: 10px;
     background-color: #eee325;
     padding-bottom: 78px;
-    width: 320px;
+    width: 350px;
     border-radius: 8px;
 }
 
