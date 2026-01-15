@@ -26,7 +26,7 @@ const images  = [
         text1 : 'Autocollants' , 
         text2: 'avec découpe laser sur mesure'
     }   
-]
+] ; 
 
 const imgElement = document.getElementById('carrouselImage') ; 
 const caption = document.getElementById('caption') ; 
@@ -39,9 +39,18 @@ let index = 0 //position actuelle de l'image ;
 function afficheImage() {
     imgElement.src = images[index].image;
     caption.innerHTML = `
-       <h2>${images[index].text1}</h2>
+    <div class = "Container">
+       <h3 class="subtitle">${images[index].text1}</h3>
        <p>${images[index].text2}</p>
+    </div>
     `;
+
+    const sizeTitle = document.querySelectorAll('.subtitle')
+
+    if (images[index].text1 === 1) {
+        sizeTitle.classList.add("subtitle-large")
+        console.log(sizeTitle)
+    }       
 } ; 
 
 nextBtn.addEventListener('click' , function() {
@@ -59,3 +68,4 @@ prevBtn.addEventListener('click' , function () {
     }
     afficheImage() ; 
 }) ; 
+

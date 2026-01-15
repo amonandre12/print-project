@@ -11,13 +11,23 @@
 
 .btn-group {
     display: flex;
-    gap: 355px;
+    gap: 325px;
 } 
  
+.Container {
+    text-align: center;
+}
+
+
+#prevBtn , #nextBtn {
+    margin-bottom: 20px;
+}
+
+
 .caption {
     position: absolute;
-    top: 29%;
-    left: 58px;
+    top: 30%;
+    left: 5%;
     text-align: center;
     color: white;
     align-content: center;
@@ -28,6 +38,12 @@
      align-content: center;
      align-content: center;
 }
+
+
+.color-p  {
+    margin-top: 30px;
+}
+
 
 button {
     color: white;
@@ -60,9 +76,9 @@ header a {
     text-decoration: none;
     color: white;
     font-size: 15x;
-     margin: 15px;
-     position: relative;
-     top: 25px;
+    margin: 15px;
+    position: relative;
+    top: 25px;
 }
 
 .btn-devis {
@@ -83,12 +99,11 @@ header a {
 }
 
 .main-content img {
-    width: 340px;
-    margin-right: 18px;
+    width: 320px;
     border-radius: 8px;
 }
 
-.main-content h1 {
+.main-content h2 {
     margin-bottom: 15px;
 }
 
@@ -123,13 +138,11 @@ br {
 }
 
 .yellow-book-content img {
-    width: 335px;
-    margin-right: 18px;
+    width: 320px;
     border-radius: 8px;
 }
 
 .yellow-book-content p {
-    /* max-width: 850px; */
     font-size: 20px;
     margin-top:18px ;
 }
@@ -137,11 +150,10 @@ br {
 .question-content {
     text-align: center;
     align-items: center;
-    margin: 2px;
-    padding: 2px;
+    margin: 10px;
     background-color: #eee325;
     padding-bottom: 78px;
-    width: 370px;
+    width: 350px;
     border-radius: 8px;
 }
 
@@ -189,8 +201,9 @@ a {
     padding-bottom: 40px;
 }
 
+
 .contact-container img {
-    width: 358px;
+    width: 348px;
     margin: 10px;
     border-radius: 20px;
 }
@@ -199,11 +212,13 @@ a {
     margin: 20px;
 }
 
+
 .phone-content {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
 
 .email {
     display: flex;
@@ -215,6 +230,12 @@ a {
 .content {
     margin: 20px;
 }
+
+
+.content h2 {
+    font-size: 18px;
+}
+
 
 .shop {
     display: flex;
@@ -273,11 +294,13 @@ a {
     background-color: #CD006B;
 }
 
+
 .links {
     display: flex;
     flex-direction: row;
     gap: 24px;
 }
+
 
 .footer-content {
     margin: 10px;
@@ -302,10 +325,10 @@ footer {
 
 /* The media query styles  */
 @media screen and (min-width : 780px){
-    
+
 .btn-group {
     display: flex;
-    gap: 1286px;
+    gap: 1296px;
     margin-right: 30px;
     padding: 10px;
 } 
@@ -322,6 +345,7 @@ footer {
 .caption  p {
     font-size: 25px;
 }
+
 
 button {
     font-size: 90px;
@@ -419,7 +443,7 @@ br {
     padding-bottom: 90px;
     align-content: center;
     text-align: center;
-    width: 1345px;
+    width: 99%;
 }
 
 .questions {
@@ -434,8 +458,6 @@ br {
 .question-content p {
     font-size: 16px;
 }
-
-
 
 
 /* The call section  */
